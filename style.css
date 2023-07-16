@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif; 
+}
+.hide{
+    display: none;
+}
+header{
+   background-color: antiquewhite;
+   /* padding: 50px; */
+   /* max-width: 100%; */
+}
+nav{
+    /* width: 100%; */
+    display: flex;
+    align-items: center;
+    padding: 50px 10%;
+    justify-content: space-between;
+}
+.nav-title{
+    color: black;
+    /* margin-left: 10%; */
+}
+nav > ul{
+    display: flex;
+    /* width: 90vh; */
+    /* margin-left: 50%; */
+}
+nav ul li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+nav li a{
+text-decoration: none;
+color: rgb(22, 21, 21);
+}
+/*bammer styles*/
+.banner-contend{
+/* width:55%; */
+text-align: center;
+    padding: 10%;
+}
+.banner-title{
+    font-size: 4em;
+    font-weight: 700;
+    color: rgb(46, 38, 38);
+    padding: 0px 300px;
+}
+.banner-description{
+    color: rgb(116, 87, 45);
+    padding: 0px 300px;
+}
+.btn-primary{
+border-radius: 8px;
+background-color:rgb(151, 5, 53) ;
+padding: 20px 30px;
+color: azure;
+border: none;
+font-size: 1.25em;
+cursor:pointer ;  
+}
+.img-banner{
+    width:100% ;
+    /* padding: 20px; */
+    /* margin-left:20vh; */
+}
+
+
+/* new code--------------------------------------- */
+.banner-image{
+    padding: 50px 200px;
+}
+
+
+
+
+/*      end header      */
+.quick-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   padding: 50px;
+   gap: 20px;
+}
+.quick-list-img img{
+    height: 100%;
+    border-radius: 20px;
+}
+.quick-list-text{
+    padding: 10%;
+    margin-top: 40%;
+}
+.style-text{
+    font-size: 7vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+span1{
+    opacity: 50%;
+}
+span2{
+    color: rgb(151, 5, 53);
+}
+.quick-peragrap{
+    padding: 15px;
+    margin-bottom:15px;
+}
+
+/*renponsive*/
+@media screen and (max-width:576px) {
+    .banner-image{
+        width: auto;
+        padding: 50px;
+    }
+    .img-banner{
+        width: 100%;
+    }
+    .banner-title{
+        padding: 0px 10px;
+    }
+    .banner-description{
+        padding: 0px 10px;
+    }
+
+}
